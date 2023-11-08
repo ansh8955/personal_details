@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal details</title>
+</head>
+<body>
+    <form>
+        <fieldset >
+            <legend>Personal Details</legend>
+            <label for="fname">Firstname:</label>
+            <input type="text" id="fname" size="15"><br><br>
+            <label for="Mname">Middlename:</label>
+            <input type="text" id="Mname" size="15"><br><br>
+            <label for="Lname">Lastname:</label>
+            <input type="text" id="Lname" size="15"><br><br>
+
+            <label for="course">Course :</label>
+            <select>
+                <option><default>Course</default></option>
+                <option>BCA</option>
+                <option>BBA</option>
+                <option>B.tech</option>
+                <option>MBA</option>
+                <option>MCA</option>
+                <option>M.tech</option>
+            </select>
+            <br>
+            <br>
+<label name="Gender" >Gender :</label><br>
+<input type="radio" name="Gender" id="male" value="male">
+<label name="Gender" >Male</label><br>
+<input type="radio" name="Gender" id="female" value="female">
+<label name="Gender" >Female</label><br>
+<input type="radio" name="Gender" id="other" value="other">
+<label name="Gender">Other</label><br><br>
+
+<label for="DOB">DOB</label>
+<input type="datetime-local" id="DOB"><br>
+<label for="phone">Phone :</label>
+<input type="text" disabled placeholder="+91" size="2">
+<input type="number" id="phone" maxlength="10"> <br><br>
+
+<label for="Address">Address</label><br>
+<textarea rows="5" cols="80"></textarea><br><br>
+<label for="email">Email:</label>
+<input type="email" name="email" id="email"><br><br><br>
+<label for="password">Password:</label>
+<input type="password" name="password" id="password"><br><br><br>
+<label for="Rpassword">Re-type password:</label>
+<input type="password" name="Rpassword" id="Rpassword"> <br><br>
+<input type="checkbox" id="checkbox">
+<label for="checkbox">Agree to terms and conditions</label><br><br>
+<label>Choose File</label>
+<input type="file"><br><br>
+<label>Choose Color</label>
+<input type="color"><br><br>
+<input type="reset">
+<input type="submit">
+
+
+        </fieldset>
+        
+    </form>
+</body>
+</html>
